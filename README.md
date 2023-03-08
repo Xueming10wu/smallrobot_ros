@@ -1,14 +1,23 @@
-# pi_robot_ros
+# smallrobot_ros
 
-小派机械臂控制器ROS驱动
+#### 配套驱动
+1、2、3轴使用DM542C 
+4、5、6轴使用DM420
+细分为 6400
+
+#### 介绍
+网络款smallarm机械臂开源驱动
+
+#### 软件架构
+ROS1
 
 
-目前官方支持的机械臂有
+#### 安装教程
+
+1.  下载到catkin_ws/src中后编译即可。
+
+#### 使用说明
+
+1.  参考TGR说明书，SmallRobot和TGR使用方式一致。
 
 
-
-1 tgr_arm robot   云南蓝脉科技ROS驱动，在本仓库tgr_arm_robot分支中查找
-
-
-
-2 smallarm robot  ROS机械臂程序，在本仓库smallarm分支中查找
